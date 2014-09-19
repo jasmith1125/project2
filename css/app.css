@@ -1,0 +1,72 @@
+/* Dynamic Web Applicatoins */
+/* Author: Joyce Smith
+   Project 1 */
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 2.6em;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+    font-style: normal;
+    font-size: 2.25em;
+    text-align: center;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: -10px;
+}
+h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.1em;
+    margin-bottom: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+
+}
+a:link {
+    color: #177F75;
+}
+a:hover {
+    color: #7D1721;
+    text-decoration: underline;
+}
+/* Background pattern from subtlepatterns.com */
+body {
+background-image: url(img/seamless_paper_texture.png);
+   background-size: auto;
+}
+/* Single-direction drop shadow, http://css-tricks.com/examples/hrs/ */		
+hr.horizrule {
+    height: 9px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+img {
+	padding-bottom: 2em;
+}
+.linktext {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: .9em;
+    margin-bottom: 0;
+}
+#goUp {
+   font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    margin: 1.5em 0 1em 0; 
+}
