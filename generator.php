@@ -19,7 +19,7 @@
     </div>
       <div class="row main-content">
         <div class="row space-above"> 
-          <div class="large-6 large-centered medium-6 medium-centered small-9 small-centered columns">
+          <div class="large-6 large-centered medium-8 medium-centered small-9 small-centered columns">
           <h2>Keep your online biz private and secure&mdash;<br />build a better password!</h2>
           </div>
         </div>
