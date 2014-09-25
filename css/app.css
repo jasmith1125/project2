@@ -1,57 +1,134 @@
-/* Dynamic Web Applicatoins */
-/* Author: Joyce Smith
-   Project 1 */
+/* Dynamic Web Applications 
+Author: Joyce Smith
+   Project 2 */
+
+@font-face {
+    font-family: 'OswaldBook';
+    src: url('Oswald-Regular-webfont.eot');
+    src: url('Oswald-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Oswald-Regular-webfont.woff') format('woff'),
+         url('Oswald-Regular-webfont.ttf') format('truetype'),
+         url('Oswald-Regular-webfont.svg#OswaldBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('Oswald-Bold-webfont.eot');
+    src: url('Oswald-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Oswald-Bold-webfont.woff') format('woff'),
+         url('Oswald-Bold-webfont.ttf') format('truetype'),
+         url('Oswald-Bold-webfont.svg#OswaldBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 h1 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'OswaldBold', 'Open Sans', sans-serif;
     font-weight: normal;
     font-style: normal;
     text-align: center;
     font-size: 2.6em;
 }
+h1.white {
+  font-size: 4em;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+.row.full-width {
+  width: 100%;
+  max-width: 100%;
+  background-color: rgba(86, 127, 23, 0.7);
+}
+.row.space-above {
+  padding-top: 3em;
+}
+.row.space-above-move-right {
+  padding-top: 3em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+}
+.row.space-top-bottom {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.row.main-content {
+  background-color: rgba(255, 255, 255, 0.5);
+ height: 100%;
+}
+.row.bottom {
+  width: 100%;
+  max-width: 100%;
+  background-color: rgba(86, 127, 23, 0.7);
+  color: white;
+  margin: 3em auto 0 auto;
+  height: 100%;
+}
+.row.generate {
+  padding-top: 1em;
+}
+
 h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-family: 'OswaldBold', 'Open Sans', sans-serif;
     font-style: normal;
-    font-size: 2.25em;
+    font-size: 1.5em;
     text-align: center;
+    padding-top: 1em;
 }
 h3 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-size: 2.5em;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
     text-align: center;
-    margin-top: -10px;
+    padding-top: 1em;
 }
 h4 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 1.1em;
-    margin-bottom: 0;
+  font-family: 'OswaldBold', 'Open Sans', sans-serif;
+    color: black;
+    font-style: normal;
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 1em;
 }
-body {
-	font-family: 'Open Sans', sans-serif;
+.pass {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #3C5910;
+  font-size: 1.5em;
+  text-align: center;
+}
+html, body {
+  background: transparent;
+}
 
+/* Background pattern from subtlepatterns.com */
+body#container {
+  background: url('../img/strange_bullseyes.png')repeat;
+  height: 100%;
+    text-align:left;
+	font-family: 'Open Sans', sans-serif;
 }
-a:link {
-    color: #177F75;
+.bottom a:link {
+    color: #ffffff;
 }
-a:hover {
-    color: #7D1721;
+.bottom a:hover {
     text-decoration: underline;
 }
-/* Background pattern from subtlepatterns.com */
-body {
-background-image: url(img/seamless_paper_texture.png);
-   background-size: auto;
+.space-above a:link {
+  color: #567F17;
 }
-/* Single-direction drop shadow, http://css-tricks.com/examples/hrs/ */		
-hr.horizrule {
-    height: 9px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+.space-above a:visited {
+  color: #567F17;
+}
+ .space-above a:hover {
+    color: #3C5910;
+    text-decoration: underline;
 }
 img {
 	padding-bottom: 2em;
@@ -70,3 +147,50 @@ img {
     font-size: 1em;
     margin: 1.5em 0 1em 0; 
 }
+/*styling for the "generate a new password" button on landing page */
+ 
+
+
+button, .button {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "OswaldBook", "Open Sans", sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+   background-color: #567F17;
+  border-color: #3C5910;
+  color: white;
+  transition: background-color 300ms ease-out; }
+  
+    button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #3C5910;
+    text-decoration: underline; }
+  button:hover, button:focus, .button:hover, .button:focus {
+    color: white; }
+  
+ 
+  button.expand, .button.expand {
+    font-family: 'OswaldBold', 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 2em;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    margin: 0 auto;
+     }
+  
+  
