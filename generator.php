@@ -24,11 +24,11 @@
           <h2>Keep your online biz private and secure&mdash;<br />build a better password!</h2>
           </div>
         </div>
-<form action="generator.php" method="GET">
+<form action="generator.php" method="POST">
       <div class="row space-top-bottom">
   <div class="large-2 large-centered medium-3 medium-centered small-3 small-centered columns">
 <label for="count">Number of words</label>
-  <select id="count">
+  <select name="count">
     <option value="2">2</option>
     <option SELECTED value="3">3</option>
     <option value="4">4</option>
@@ -43,15 +43,15 @@
 <div class="row">
   <div class="large-3 large-offset-1 small-3 small-offset-1 columns">
  <label for="number">Include a number? 
-      <input type="checkbox" id="number" value="checkbox" /></label>
+      <input type="checkbox" name="number" value="checkbox" /></label>
       </div>
   <div class="large-3 small-3 columns">
  <label for="symbol">Include a symbol?
-      <input type="checkbox" id="symbol" value="checkbox" /></label>
+      <input type="checkbox" name="symbol" value="checkbox" /></label>
   </div>
    <div class="large-4 small-4 columns end">
    <label for="uppercase">Make first letter of first word upper case?
-      <input type="checkbox" id="uppercase" value="checkbox" /></label>
+      <input type="checkbox" name="uppercase" value="checkbox" /></label>
     </div>
 </div>
   
@@ -67,9 +67,7 @@
       <p class="pass">string-of-words-here</p>
     </div>
   </div>
-  <input id="recipient" type="hidden" value="info@grhousing.org" name="recipient">
-<input type="hidden" value="http://www.grhousing.org/received.html" name="redirect">
-<input type="hidden" value="password generator test" name="subject">
+  
   </form>
   <div class="row bottom">
     <div class="large-6 large-centered small-9 small-centered columns">
