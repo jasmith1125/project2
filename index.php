@@ -31,6 +31,7 @@
     <div class="row">
       <div class="large-6 large-centered medium-6 medium-centered small-9 small-centered columns">
       <a href="generator.php" class="button expand">Go to the Password Generator!</a>
+      <p>&nbsp;</p> 
     </div>
   </div>
   <div class="row bottom">

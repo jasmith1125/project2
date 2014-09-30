@@ -65,18 +65,19 @@ h1.white {
 }
 .row.main-content {
   background-color: rgba(255, 255, 255, 0.5);
- height: auto%;
+ height: auto;
  -webkit-box-shadow: 6px 0 8px -5px #999, -6px 0px 8px -5px #999;
    -moz-box-shadow: 6px 0 8px -5px #999, -6px 0px 8px -5px #999;
         box-shadow: 6px 0 8px -5px #999, -6px 0px 8px -5px #999;
 }
+
 .row.bottom {
   width: 100%;
   max-width: 100%;
   background-color: rgba(86, 127, 23, 0.8);
-  font-color: white;
+  color: white;
   margin: 3em auto 0 auto;
-  height: 10rem;
+  height: 20rem;
 }
 .row.generate {
   padding-top: 1em;
@@ -160,9 +161,12 @@ img {
     font-size: 1em;
     margin: 1.5em 0 1em 0; 
 }
-/*styling for the "generate a new password" button on landing page */
- 
 
+select {
+  text-align: center;
+  width: 80%;
+}
+/*styling for the "generate a new password" button on landing page */
 
 button, .button {
   -webkit-appearance: none;
