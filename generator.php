@@ -37,21 +37,20 @@
     <option value="7">7</option>
   </select>
 
-
   </div>
 </div>
 <div class="row">
   <div class="large-3 large-offset-1 small-3 small-offset-1 columns">
  <label for="number">Include a number? 
-      <input type="checkbox" name="number" value="checkbox" /></label>
+      <input type="checkbox" name="number" value="number" /></label>
       </div>
   <div class="large-3 small-3 columns">
  <label for="symbol">Include a symbol?
-      <input type="checkbox" name="symbol" value="checkbox" /></label>
+      <input type="checkbox" name="symbol" value="symbol" /></label>
   </div>
    <div class="large-4 small-4 columns end">
    <label for="uppercase">Make first letter of first word upper case?
-      <input type="checkbox" name="uppercase" value="checkbox" /></label>
+      <input type="checkbox" name="uppercase" value="uppercase" <?php echo ($uppercase) ? 'checked="checked"' : '' ; ?> /></label>
     </div>
 </div>
   
@@ -64,7 +63,7 @@
   <div class="row small-space-above">
     <div class="large-6 large-centered small-9 small-centered columns">
       <h4>Your new password:</h4>
-      <p class="pass">string-of-words-here</p>
+      <p class="pass"><?php echo $password ?></p>
     </div>
   </div>
   
