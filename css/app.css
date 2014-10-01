@@ -64,7 +64,7 @@ h1.white {
 }
 @media only screen and (max-width: 40em) {
 h1.white {
-  font-size: 4em;
+  font-size: 3em;
   color: white;
   margin-top: .5em;
   margin-bottom: 0;
@@ -127,7 +127,8 @@ h3 {
     text-align: center;
     padding-top: 1em;
 }
-h4 {
+
+  h4 {
   font-family: 'OswaldBold', 'Open Sans', sans-serif;
     color: black;
     font-style: normal;
@@ -135,12 +136,23 @@ h4 {
     text-align: center;
     padding-top: 1em;
 }
+@media only screen and (min-width: 40.063em) {  
 .pass {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #3C5910;
   font-size: 1.5em;
   text-align: center;
+}
+}
+@media only screen and (max-width: 40em) {  
+.pass {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #3C5910;
+  font-size: 1.2em;
+  text-align: center;
+}
 }
 html, body {
   background: transparent;
