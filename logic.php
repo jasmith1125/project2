@@ -43,17 +43,15 @@ if($words = file('words.txt')) {
 }
 
 if($number) {
-	$numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+	$numbers = range(1, 50);
   $rand = rand(0, count($numbers) -1);
-  $selected_number = $numbers[$rand];
-  $number = $selected_number;
+  $number = $numbers[$rand];
 } 
 
 if($symbol) {
-  $symbols = ['!', '@', '#', '%', '&', '*'];
+  $symbols = ['!', '@', '#', '$', '%', '^', '&', '*'];
   $rand = rand(0, count($symbols) -1);
-  $selected_symbol = $symbols[$rand];
-  $symbol =  $selected_symbol;
+  $symbol =  $symbols[$rand];
 } 
 
 if($uppercase) {
