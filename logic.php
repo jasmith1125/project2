@@ -61,6 +61,7 @@ if($uppercase) {
 	}
 	}
 
+
 //update variables to send back
 
 $password = implode("", $selected_words)." ".$symbol." ".$number;
