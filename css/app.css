@@ -64,7 +64,7 @@ h1.white {
 }
 @media only screen and (max-width: 40em) {
 h1.white {
-  font-size: 3em;
+  font-size: 2.5em;
   color: white;
   margin-top: .5em;
   margin-bottom: 0;
@@ -216,29 +216,10 @@ select {
 /*styling for the "generate a new password" button on landing page */
 
 button, .button {
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-  border-style: solid;
-  border-width: 0px;
-  cursor: pointer;
-  font-family: "OswaldBook", "Open Sans", sans-serif;
-  font-weight: normal;
-  line-height: normal;
-  margin: 0 0 1.25rem;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  
-  display: inline-block;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
-  font-size: 1rem;
    background-color: #567F17;
   border-color: #3C5910;
   color: white;
-  transition: background-color 300ms ease-out; }
+   }
   
     button:hover, button:focus, .button:hover, .button:focus {
     background-color: #3C5910;
@@ -250,10 +231,7 @@ button, .button {
   button.expand, .button.expand {
     font-family: 'OswaldBold', 'Open Sans', sans-serif;
     font-style: normal;
-    font-size: 2em;
-    padding-right: 0;
-    padding-left: 0;
-    width: 100%;
+    font-size: 1.75em;
     margin: 0 auto;
   -moz-box-shadow:    3px 3px 5px 3px #3C5910;
   -webkit-box-shadow: 3px 3px 5px 3px #3C5910;

@@ -26,7 +26,7 @@
         </div>
 <form action="generator.php" method="GET">
       <div class="row space-top-bottom">
-  <div class="large-2 large-centered medium-3 medium-centered small-3 small-centered columns">
+  <div class="large-2 large-centered medium-3 medium-centered small-5 small-centered columns">
 <label>Number of words</label>
     <select name="count">
     <option value="2">2</option>
@@ -54,7 +54,7 @@
 </div>
   
    <div class="row generate">
-      <div class="large-6 large-centered medium-6 medium-centered small-12 small-centered columns">
+      <div class="large-6 large-centered medium-6 medium-centered small-9 small-centered columns">
     
       <input class="button expand" type="submit" id="submit" value="Make a New Password" />
     </div>
