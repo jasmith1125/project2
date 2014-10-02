@@ -54,7 +54,7 @@
 </div>
   
    <div class="row generate">
-      <div class="large-6 large-centered medium-6 medium-centered small-9 small-centered columns">
+      <div class="large-6 large-centered medium-6 medium-centered small-10 small-centered columns">
     
       <input class="button expand" type="submit" id="submit" value="Make a New Password" />
     </div>
