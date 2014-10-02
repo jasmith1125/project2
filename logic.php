@@ -13,6 +13,7 @@ if($count > 7){
 	$count = 3;
 }
 
+
 if(isset ($_GET['number'])) {
 	$number = true;
 } else {
