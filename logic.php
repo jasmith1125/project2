@@ -6,6 +6,12 @@ if(isset ($_GET['count'])) {
 } else {
 	$count = 3;
 }
+//prevent problems when 0 or large number typed in url
+if($count > 7){
+	$count = 3;
+} elseif($count < 1){
+	$count = 3;
+}
 
 if(isset ($_GET['number'])) {
 	$number = true;
