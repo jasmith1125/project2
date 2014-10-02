@@ -154,6 +154,14 @@ h3 {
   text-align: center;
 }
 }
+.wrong_no {
+  font-family: 'Open Sans', sans-serif;
+  background-color: none;
+  font-weight: 300;
+  color: #B23417;
+  font-size: .8em;
+  text-align: center;
+}
 html, body {
   background: transparent;
 }

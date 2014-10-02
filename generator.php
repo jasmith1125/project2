@@ -62,7 +62,7 @@
   <div class="row small-space-above">
     <div class="large-12 large-centered small-12 small-centered columns">
       <h4>Your new password:</h4>
-      <p class="pass"><?=$password?></p>
+      <p class="pass"><?=$password?><span class="wrong_no"><?=$error?></span></p>
     </div>
   </div>
   

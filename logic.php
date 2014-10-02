@@ -7,25 +7,34 @@ if(isset ($_GET['count'])) {
 	$count = 3;
 }
 //prevent problems when 0 or large number typed in url
-if($count > 7){
-	$count = 3;
-} elseif($count < 1){
-	$count = 3;
+$error = "Please choose a number between 2 and 7";
+if($count > 7) {
+     $count = $error;
+     $password = null;
+} elseif($count < 2) {
+	 $count = $error;
+     $password = null;
+} else {
+	$error = null;
 }
-
 
 if(isset ($_GET['number'])) {
 	$number = true;
 } else {
 	$number = false;
 	}
-
+if($error) {
+	$number = false;
+}
 
 if(isset ($_GET['symbol'])) {
 	$symbol = true;
 } else {
 	$symbol = false;
 	}
+if($error) {
+	$symbol = false;
+}
 
 if(isset ($_GET['uppercase'])) {
 	$uppercase = true;
@@ -46,7 +55,7 @@ if($words = file('words.txt')) {
   	$word = $words[$rand];
  
   	array_push($selected_words, $word);
-  }
+  } 
 }
 
 if($number) {
