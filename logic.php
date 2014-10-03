@@ -41,6 +41,9 @@ if(isset ($_GET['uppercase'])) {
 } else {
 	$uppercase = false;
 	}
+if($error) {
+	$uppercase = false;
+}
 
 //run logic on form responses
 if($words = file('words.txt')) {
