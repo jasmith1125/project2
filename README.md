@@ -4,9 +4,9 @@ October 2, 2014
 
 **Live URL:** [http://p2.jasmith1125.me](http://p2.jasmith1125.me)
 
-**Description:** This project demonstrates that I have learned how to use basic PHP to create and deploy an xkcd-style password generator. 
+**Demo Information:** Jing screencast URL: [http://screencast.com/t/DvitqbL30FO2](http://screencast.com/t/DvitqbL30FO2)
 
-**Demo Information:** Jing screencast link:
+**Description:** This project demonstrates that I have learned how to use basic PHP to create and deploy an xkcd-style password generator. 
 
 **Details for teaching team:**  
 My customized CSS is in the project folder: css/app.css; this validates via WC3 standards.  
