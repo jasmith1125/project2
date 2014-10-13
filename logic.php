@@ -7,15 +7,10 @@ if(isset ($_GET['count'])) {
 	$count = 3;
 }
 //prevent problems when 0 or large number typed in url
-$error = "Please choose a number between 2 and 7";
-if($count > 7) {
+$error = null;
+if($count < 2 || $count > 7) {
      $count = $error;
-     $password = null;
-} elseif($count < 2) {
-	 $count = $error;
-     $password = null;
-} else {
-	$error = null;
+     $error = "Please choose a number between 2 and 7";
 }
 
 if(isset ($_GET['number'])) {
